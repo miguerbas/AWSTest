@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  exemple:
+  exemple_OIDC:
     runs-on: ubuntu-latest
     permissions:
      id-token: write
